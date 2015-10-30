@@ -3,10 +3,10 @@
 from django.conf.urls import patterns, url
 
 MAIN_ENTITY_LEVEL = 'municipio'
-MAIN_ENTITY_NAME = 'Castellón de la Plana'
+MAIN_ENTITY_NAME = 'Castellón'
 
 BUDGET_LOADER = 'CastellonBudgetLoader'
-PAYMENTS_LOADER = 'PaymentsLoader'
+PAYMENTS_LOADER = 'CastellonPaymentsLoader'
 
 FEATURED_PROGRAMMES = ['1710', '3321', '3261', '1630', '2410', '3263', '3340', '3370', '3410', '4411', '9242']
 
