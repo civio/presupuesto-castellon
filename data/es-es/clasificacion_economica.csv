@@ -521,21 +521,18 @@ G,9,4,,Devolución de depósitos y fianzas
 G,9,4,0,Devolución de depósitos
 G,9,4,1,Devolución de fianzas
 #
-# Conceptos específicos de Rubí
-I,3,5,9,Quotes urbanístiques
+# Conceptos específicos de Castelló
 I,4,7,0,De empresas privadas
 I,4,8,0,De familias e instituciones sin fines de lucro
 I,5,2,0,Intereses de depósitos
-I,7,7,0,De empresas privadas
-I,7,8,0,De familias e instituciones sin fines de lucro
-G,1,5,4,Fondo homologación, vertebración y v.p.t.
-G,1,5,5,Modernización
-G,1,5,6,Ajustes técnicos
+I,7,5,4,
 G,2,7,0,Gastos imprevistos y funciones no clasificadas
 G,4,1,0,A organismos autónomos de la entidad local
-G,4,8,0,Transferencias corrientes
-G,4,8,1,Premios, becas y pensiones de estudio
-G,4,8,9,Otras transferencias
-G,4,9,0,Al exterior
-G,7,4,0,A entes públicos y sociedades mercantiles de la entidad local
-G,7,8,0,Servicios Generales de Urbanismo y Arquitectura
+G,4,8,0,A familias e instituciones sin fines de lucro
+G,4,8,1,A familias e instituciones sin fines de lucro
+G,4,8,9,A familias e instituciones sin fines de lucro
+G,6,0,1,
+G,6,0,2,
+G,6,1,1,
+G,6,1,2,
+G,7,8,9,
