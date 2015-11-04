@@ -1,5 +1,5 @@
-@font-body: 'Source Sans Pro', Helvetica, Helvetica, Arial, sans-serif;
-@font-titles: 'Oxygen', Helvetica, Arial, sans-serif;
+@font-body:  Helvetica, Arial, sans-serif;
+@font-titles: @font-body;
 
 // Tipography
 body, label, input, select, optgroup, option, textarea, button{
@@ -68,7 +68,7 @@ a:hover,
 
 #menu-lang{
   position: absolute;
-  top: 10px;
+  top: 46px;
   right: 0;
 
   ul{
@@ -105,12 +105,12 @@ header[role="banner"] {
     height: 220px;
 
     .logo{
-      width: 168px;
-      height: 73px;
+      width: 78px;
+      height: 92px;
       text-indent: -9999px;
       overflow: hidden;
       background: url(../assets/logo.png) no-repeat 0 0 white;
-      margin: 20px auto;
+      margin: 8px auto;
     }
 
     .open-data-logo{
@@ -164,17 +164,11 @@ header[role="banner"] {
 }
 
 .home-intro .options .option-payments {
-  margin: 0 2% .5em 0;
   .icon{
     color: spin(@color-base, 75);
   }
   .button {background-color: spin(@color-base, 75);}
 }
-
-.home-intro .options .option-policies{
-  margin: 0;
-}
-
 
 // Welcome
 .expense-examples ul li {
@@ -317,7 +311,7 @@ header[role="banner"] {
 @media screen and (min-width: 48em) {
 
   header[role="banner"] > .container-fluid{
-    height: 105px;
+    height: 108px;
 
     > .row-fluid{
       display: block;
@@ -330,7 +324,7 @@ header[role="banner"] {
 
     .logo{
       position: absolute;
-      top: 12px;
+      top: 8px;
       left: 12px;
       margin: 0;
     }
@@ -348,7 +342,7 @@ header[role="banner"] {
   }
 
   .home-intro .options > div {
-    width: 45%;
+    width: 28%;
   }
 
   #main-menu ul{
@@ -356,17 +350,7 @@ header[role="banner"] {
     
     li{
       border: none;
-      width: 18%;
-
-      &.page-payments{
-        width: 24%;
-      }
-      &.page-tax{
-        width: 21%;
-      }
-      &.page-glossary{
-        width: 19%;
-      }
+      width: 25%;
 
       [class*="icon-"]:before {
         position: relative;
