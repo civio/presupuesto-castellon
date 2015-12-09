@@ -22,30 +22,27 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
-        #programme_mapping = {
-        #     '1330': '1340',     # Mobilidad
-        #     '1340': '1350',     # Protección Civil
-        #     '1520': '1521',     # Vivienda
-        #     '1550': '1531',     # Vías públicas
-        #     '1620': '1621',     # Recogida de residuos
-        #     '1720': '1721',     # Medio ambiente
-        #     '2320': '2312',     # Mujer
-        #     '2321': '2313',     # Ciudadanía y civismo
-        #     '2330': '2314',     # Personas mayores y dependencia
-        #     '3130': '3110',     # Salud pública
-        #     '3132': '3111',     # Acogida de animales
-        #     '3210': '3261',     # Guarderías
-        #     '3221': '3262',     # Escuela de arte
-        #     '3222': '3263',     # Escuela de música
-        #     '3230': '3260',     # Promoción educativa
-        #     '3320': '3321',     # Bibliotecas públicas
-        #     '3360': '3330',     # Museos
-        #     '3350': '3342',     # Artes escénicas
-        #     '4311': '4312',     # Mercado
-        #     '4410': '4411',     # Transporte colectivo urbano de viajeros
-        #     '9211': '9202',     # Servicios generales del área de planificación estratégica
-        #     '9213': '9206',     # Servicios generales del área de cohesión social
-        #}
+        programme_mapping = {
+            # old programme: new programme
+            '1332': '1330',     # TRAFICO
+            '1330': '1340',     # SECC.MOVILIDAD URBANA
+            '1331': '1341',     # UNID.ADMIN.MOVILIDAD URBANA
+            '1331': '1333',     # UNID.TECN.MOV.URBANA
+            '1512': '1511',     # SEC.CONTROL URBANISTICO
+            '1550': '1530',     # SECCION INFRA. SS PP Y M.A.
+            '1554': '1533',     # BRIGADAS MUNICIPALES
+            '1553': '1535',     # CONSERVACION
+            '1551': '1537',     # NEG.ADMIN.INFRAESTRUCTURAS
+            '1790': '1722',     # PROYECTOS EUROPEOS
+            '2301': '2310',     # SECCION SERV.SOCIALES Y CULTURALES
+            '2322': '2311',     # DINAMIZACION COMUNITARIA
+            '3130': '3110',     # SANIDAD
+            '3320': '3321',     # BIBLIOTECAS
+            '3350': '3342',     # BANDA MUSICA
+            '4410': '4411',     # TRANSPORTE PUBLICO
+            '1552': '9203',     # INGENIERIA
+            '9230': '9231',     # ESTADISTICA
+        }
 
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
@@ -57,11 +54,11 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
                 fc_code = fc_code[:-1]
 
             # For years before 2015 we check whether we need to amend the programme code
-            # year = re.search('municipio/(\d+)/', filename).group(1)
-            # if year in ['2011', '2012', '2013', '2014']:
-            #     new_programme = programme_mapping.get(fc_code)
-            #     if new_programme:
-            #         fc_code = new_programme
+            year = re.search('municipio/(\d+)/', filename).group(1)
+            if year in ['2011', '2012', '2013', '2014']:
+                new_programme = programme_mapping.get(fc_code)
+                if new_programme:
+                    fc_code = new_programme
 
             return {
                 'is_expense': True,
