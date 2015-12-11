@@ -6996,7 +6996,7 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
   }
   #main-menu ul li {
     border: none;
-    width: 25%;
+    width: 33.33%;
   }
   #main-menu ul li [class*="icon-"]:before {
     position: relative;
@@ -7023,6 +7023,11 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
   }
   .footer-corp .footer-menu li:last-child {
     border: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav-rwd > li:last-child {
+    border-top: 1px solid #1c282e;
   }
 }
 .chartWrap {
