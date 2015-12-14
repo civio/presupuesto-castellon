@@ -1,0 +1,13 @@
+#Institución,Sección,Departamento,Nombre
+0,,,Ayuntamiento de Castellón
+0,0,,Ayuntamiento de Castellón
+# Nota: la siguiente línea se usa sólo para los ingresos, la aplicación necesita que el campo
+# 'departamento' no esté vacío para poder mostrar el desglose orgánico
+0,0,0,Fondo de Contingencia
+0,0,1,Organos Politicos
+0,0,2,Servicios Generales
+0,0,3,Area de Gobierno Abierto y Participación
+0,0,4,Hacienda, Modernización y Administración Municipal
+0,0,5,Servicios a la Ciudadanía
+0,0,6,Desarrollo de la Ciudad, Sostenibilidad, Medio Ambiente, Vivienda y Servicios Urbanos
+0,0,7,Seguridad Pública
