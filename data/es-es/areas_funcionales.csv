@@ -44,7 +44,7 @@
 1,3,2,5,Agrupación de Tráfico
 1,3,3,0,Trafico
 1,3,3,1,U.T.movilidad urbana
-1,3,3,3,
+1,3,3,3,Unidad Semáforos
 1,3,4,0,Secc.Movilidad Urbana
 1,3,4,1,Unid.admin.movilidad urbana
 1,3,5,0,Protección civil
@@ -52,7 +52,7 @@
 1,5,0,0,Direccion urbanismo
 1,5,0,1,Administración General de Vivienda y urbanismo
 1,5,1,0,Desarrollo urbanistico
-1,5,1,1,Sec.CONTROL urbanistico
+1,5,1,1,Sec.Control urbanistico
 1,5,1,2,
 1,5,2,0,Oficina de la vivienda
 1,5,2,2,Seccion arquitectura urbana
@@ -81,7 +81,7 @@
 2,3,1,0,Seccion serv.sociales y culturales
 2,3,1,1,Dinamizacion comunitaria
 2,3,1,2,Familia
-2,3,2,1,
+2,3,2,1,Coord.Program.
 2,3,2,3,Coop.Social
 2,3,2,4,Inmigración
 2,3,2,5,GPTA.
@@ -96,7 +96,7 @@
 2,4,1,6,Form.ocupacional propia
 2,4,1,7,Plan empleo conjunto
 2,4,1,8,Cursos desempleados
-2,4,1,9,
+2,4,1,9,Consorcio del Pacto Local por el Empleo
 3,1,1,0,Sanidad
 3,1,2,0,Serv.asistencia medica urgente
 3,2,0,0,Educacion
@@ -147,7 +147,7 @@
 9,2,6,0,Comunicaciones internas
 9,2,9,0,Fondo de contingencia
 9,3,1,0,Intervencion
-9,3,1,1,Area gestion economica
+9,3,1,1,Órgano de Gestión Presupuestaria y Contabilidad
 9,3,2,0,Gestion tributaria
 9,3,2,1,TEAC
 9,3,2,2,Recaudacion
