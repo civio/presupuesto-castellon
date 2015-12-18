@@ -81,7 +81,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
                 'is_expense': False,
                 'is_actual': is_actual,
                 'ec_code': self.clean(line[1]),
-                'ic_code': '999',                           # All income goes to the root node (009)
+                'ic_code': '999',                           # All income goes to the root node (999)
                 'item_number': self.clean(line[1])[-2:],    # Last two digits
                 'description': line[2],
                 'amount': self._parse_amount(line[6 if is_actual else 3])
