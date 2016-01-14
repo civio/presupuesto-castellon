@@ -67,16 +67,22 @@ msgid "La recaudación"
 msgstr "La recaptació"
 
 #: templates/budgets/budgets_intro.html:6
-msgid "La recaudación de impuestos locales se realiza a través de impuestos directos, principalmente el IBI, y de tasas y precios públicos. Por otro lado la ciudadanía paga impuestos al Estado y a la Generalitat de Cataluña a través de los impuestos directos - como el IRPF y el impuesto de sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
-msgstr "La recaptació d'impostos locals es realitza a través d'impostos directes, principalment l'IBI, i de taxes i preus públics. D'altra banda la ciutadania paga impostos a l'Estat i la Generalitat a través dels impostos directes - com l'IRPF i l'impost de societats- i d'impostos indirectes -l'IVA i impostos sobre el tabac, l'alcohol o la benzina."
+msgid ""
+"La recaudación de impuestos locales se realiza a través de impuestos directos, principalmente el IBI, y de tasas y precios públicos. Por otro lado "
+"la ciudadanía paga impuestos al Estado y a la Generalitat de Cataluña a través de los impuestos directos - como el IRPF y el impuesto de "
+"sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
+msgstr "La recaptació d'impostos locals es realitza a través d'impostos directes, principalment l'IBI, i de taxes i preus públics. D'altra banda la ciutadania paga impostos a l'Estat i la Generalitat Valenciana a través dels impostos directes - com l'IRPF i l'impost de societats- i d'impostos indirectes -l'IVA i impostos sobre el tabac, l'alcohol o la benzina."
 
 #: templates/budgets/budgets_intro.html:11
 msgid "¿Cómo se reparte?"
 msgstr "Còm es reparteix?"
 
 #: templates/budgets/budgets_intro.html:12
-msgid "La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, principalmente, de la Generalitat y la Administración General del Estado para formar el presupuesto de ingresos municipal."
-msgstr "La totalitat dels diners recaptats per l'Ajuntament es destinen al pressupost municipal que requereix d'altres ingressos provinents, principalment, de l'Administració General de l'Estat  i de la Generalitat de Catalunya per formar el pressupost d'ingressos municipal."
+msgid ""
+"La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, "
+"principalmente, de la Generalitat y la Administración General del Estado para formar el presupuesto de ingresos municipal."
+msgstr "La totalitat dels diners recaptats per l'Ajuntament es destinen al pressupost municipal que requereix d'altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat Valenciana per formar el pressupost d'ingressos municipal."
+
 
 #: templates/budgets/budgets_intro.html:17
 msgid "¿En qué se emplea?"
@@ -112,7 +118,7 @@ msgstr "Institut Nacional d'Estadística (INE)"
 
 #: templates/shared/data_sources.html:10
 msgid "Datos de inflación (Medias anuales de IPC para la Comunidad Valenciana)"
-msgstr "Dades d'inflació (mitjanes anuals d'IPC per a la Comunitat Valenciana)"
+msgstr "Dades d'inflació (mitjanes anuals d'IPC per a la Generalitat Valenciana)"
 
 #: templates/shared/data_sources.html:13
 msgid "Nota"
@@ -207,7 +213,7 @@ msgstr "Alguns exemples"
 
 #: templates/welcome/index.html:29
 msgid "Para que tengas una idea general de los ingresos y gastos del Ayuntamiento de Rubí."
-msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Ajuntament de Rubí."
+msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Ajuntament de Castelló de la Plana."
 
 #: templates/welcome/index.html:34
 msgid "Políticas concretas"
@@ -244,14 +250,8 @@ msgstr "Ingressos corrents (capítols I-V) - Despeses corrents (capítols I-V)"
 msgid "Ahorro bruto"
 msgstr "Estalvi brut"
 
-msgid "La recaudación de impuestos locales se realiza a través de impuestos directos, principalmente el IBI y de tasas y precios públicos. Por otro lado la ciudadanía paga impuestos a la Generalitat y al Estado a través de los impuestos directos - como el IRPF y el impuesto de sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
-msgstr "La recaptació d’impostos locals es du a terme a través d'impostos directes, principalment l'IBI i de taxes i preus públics. D'altra banda, la ciutadania paga impostos a la Generalitat i l'Estat a través dels impostos directes - com l'IRPF i l'impost de societats- i d'impostos indirectes -l'IVA i impostos sobre el tabac, l'alcohol o la benzina."
-
-msgid "La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, principalmente, de la Generalidad y la Administración General del Estado para cubrir todos los gastos."
-msgstr "La totalitat dels diners recaptats per l'Ajuntament es destinen al pressupost municipal que requereix d'altres ingressos provinents, principalment, de la Generalitat i l'Administració General de l'Estat per cobrir tota la despesa."
-
-msgid "El Ayuntamiento utiliza el dinero recaudado, junto con otras fuentes de financiación como la deuda, para mantener los servicios públicos y la provisión de bienes públicos a la ciudadanía de Rubí."
-msgstr "L'Ajuntament utilitza els diners recaptats, juntament amb altres fonts de finançament com el deute, per mantenir els serveis públics i la provisió de bens públics a la ciutadania de Rubí"
+msgid "El Ayuntamiento utiliza el dinero recaudado, junto con otras fuentes de financiación como la deuda, para mantener los servicios públicos y la provisión de bienes públicos a la ciudadanía de Castellón."
+msgstr "L'Ajuntament utilitza els diners recaptats, juntament amb altres fonts de finançament com el deute, per mantenir els serveis públics i la provisió de bens públics a la ciutadania de Castelló"
 
 msgid "El recorrido de mis impuestos"
 msgstr "El recorregut dels meus impostos"
@@ -263,7 +263,7 @@ msgid "Elige año"
 msgstr "Tria l'any"
 
 msgid "Gobierno de Aragón"
-msgstr "Ajuntament de Rubí"
+msgstr "Ajuntament de Castelló de la Plana"
 
 msgid "Volver a la lista de comarcas"
 msgstr "Tornar a la llista de comarques"
@@ -449,7 +449,7 @@ msgid "Calcular"
 msgstr "Calcular"
 
 msgid "Contribuyes con un total de <b id=\"tax-amount-paid\"></b> a los presupuestos del Ayuntamiento de Rubí"
-msgstr "Contribueixes amb un total de <b id=\"tax-amount-paid\"></b> als pressupostos de l'Ajuntament de Rubí"
+msgstr "Contribueixes amb un total de <b id=\"tax-amount-paid\"></b> als pressupostos de l'Ajuntament de Castelló de la Plana"
 
 msgid "¿Qué significa?"
 msgstr "Què significa?"
@@ -461,7 +461,7 @@ msgid "Escribe aquí tu término de búsqueda"
 msgstr "Escriu aquí el teu terme de cerca"
 
 msgid "¿Cómo y en qué gasta el Gobierno de Aragón?"
-msgstr "Com i en què gasta l'Ajuntament de Rubí?"
+msgstr "Com i en què gasta l'Ajuntament de Castelló de la Plana?"
 
 msgid "Para que tengas una idea general de los ingresos y gastos del Ayuntamiento de Castellón de la Plana."
 msgstr "Per a què tinguis una idea general dels ingressos i despeses de l'Ajuntament de Castelló de la Plana."

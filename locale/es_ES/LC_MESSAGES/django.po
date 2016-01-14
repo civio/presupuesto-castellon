@@ -72,6 +72,9 @@ msgid ""
 "la ciudadanía paga impuestos al Estado y a la Generalitat de Cataluña a través de los impuestos directos - como el IRPF y el impuesto de "
 "sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
 msgstr ""
+"La recaudación de impuestos locales se realiza a través de impuestos directos, principalmente el IBI, y de tasas y precios públicos. Por otro lado "
+"la ciudadanía paga impuestos al Estado y a la Comunidad Valenciana a través de los impuestos directos - como el IRPF y el impuesto de "
+"sociedades- y de impuestos indirectos -IVA e impuestos sobre el tabaco, el alcohol o la gasolina."
 
 #: templates/budgets/budgets_intro.html:11
 msgid "¿Cómo se reparte?"
@@ -82,6 +85,8 @@ msgid ""
 "La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, "
 "principalmente, de la Generalitat y la Administración General del Estado para formar el presupuesto de ingresos municipal."
 msgstr ""
+"La totalidad del dinero recaudado por el Ayuntamiento se destina al presupuesto municipal que requiere de otros ingresos provenientes, "
+"principalmente, de la Comunidad Valenciana y la Administración General del Estado para formar el presupuesto de ingresos municipal."
 
 #: templates/budgets/budgets_intro.html:17
 msgid "¿En qué se emplea?"
@@ -92,6 +97,8 @@ msgid ""
 "El Ayuntamiento utiliza el dinero recaudado, junto con las transferencias del resto de Administraciones Públicas, para mantener los servicios "
 "públicos y la provisión de bienes públicos a la ciudadanía de Rubí."
 msgstr ""
+"El Ayuntamiento utiliza el dinero recaudado, junto con las transferencias del resto de Administraciones Públicas, para mantener los servicios "
+"públicos y la provisión de bienes públicos a la ciudadanía de Castellón."
 
 #: templates/shared/data_sources.html:3
 msgid "Fuentes de datos"
@@ -151,7 +158,7 @@ msgstr ""
 
 #: templates/shared/header.html:13
 msgid "Ir a la home de Presupuestos de Rubí"
-msgstr ""
+msgstr "Ir a la home de Presupuestos de Castellón de la Plana"
 
 #: templates/shared/header.html:14
 msgid "Presupuestos"
