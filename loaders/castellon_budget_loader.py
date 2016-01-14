@@ -47,12 +47,12 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
-            fc_code = self.clean(line[1]).zfill(4)          # Fill with zeroes on the left if needed
-            ic_code = self.clean(line[0]).zfill(3)          # Fill with zeroes on the left if needed
+            fc_code = self.clean(line[1]).zfill(4)      # Fill with zeroes on the left if needed
+            ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
 
             # Remove last char to fc_code if grather than 4 chars
-            if len(fc_code) == 5:
-                fc_code = fc_code[:-1]
+            # if len(fc_code) == 5:
+            #     fc_code = fc_code[:-1]
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
@@ -68,7 +68,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             return {
                 'is_expense': True,
                 'is_actual': is_actual,
-                'fc_code': fc_code,
+                'fc_code': fc_code[:4],
                 'ec_code': self.clean(line[2]),
                 'ic_code': ic_code,
                 'item_number': self.clean(line[2])[-2:],    # Last two digits
