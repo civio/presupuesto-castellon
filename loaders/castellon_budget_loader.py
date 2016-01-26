@@ -18,24 +18,24 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
             # old programme: new programme
-            '1332': '1330',     # TRAFICO
-            '1330': '1340',     # SECC.MOVILIDAD URBANA
-            '1331': '1341',     # UNID.ADMIN.MOVILIDAD URBANA
-            '1331': '1333',     # UNID.TECN.MOV.URBANA
-            '1512': '1511',     # SEC.CONTROL URBANISTICO
-            '1550': '1530',     # SECCION INFRA. SS PP Y M.A.
-            '1554': '1533',     # BRIGADAS MUNICIPALES
-            '1553': '1535',     # CONSERVACION
-            '1551': '1537',     # NEG.ADMIN.INFRAESTRUCTURAS
-            '1790': '1722',     # PROYECTOS EUROPEOS
-            '2301': '2310',     # SECCION SERV.SOCIALES Y CULTURALES
-            '2322': '2311',     # DINAMIZACION COMUNITARIA
-            '3130': '3110',     # SANIDAD
-            '3320': '3321',     # BIBLIOTECAS
-            '3350': '3342',     # BANDA MUSICA
-            '4410': '4411',     # TRANSPORTE PUBLICO
-            '1552': '9203',     # INGENIERIA
-            '9230': '9231',     # ESTADISTICA
+            '13320': '13300',     # TRAFICO
+            '13300': '13400',     # SECC.MOVILIDAD URBANA
+            '13310': '13410',     # UNID.ADMIN.MOVILIDAD URBANA
+            '13310': '13330',     # UNID.TECN.MOV.URBANA
+            '15120': '15110',     # SEC.CONTROL URBANISTICO
+            '15500': '15300',     # SECCION INFRA. SS PP Y M.A.
+            '15540': '15330',     # BRIGADAS MUNICIPALES
+            '15530': '15350',     # CONSERVACION
+            '15510': '15370',     # NEG.ADMIN.INFRAESTRUCTURAS
+            '17900': '17220',     # PROYECTOS EUROPEOS
+            '23010': '23100',     # SECCION SERV.SOCIALES Y CULTURALES
+            '23220': '23110',     # DINAMIZACION COMUNITARIA
+            '31300': '31100',     # SANIDAD
+            '33200': '33210',     # BIBLIOTECAS
+            '33500': '33420',     # BANDA MUSICA
+            '44100': '44110',     # TRANSPORTE PUBLICO
+            '15520': '92030',     # INGENIERIA
+            '92300': '92310',     # ESTADISTICA
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
