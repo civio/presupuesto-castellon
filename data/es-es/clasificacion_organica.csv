@@ -1,23 +1,23 @@
-#Institució,Secció,Departament,Nom
-0,,,Ajuntament de Castelló
-0.0,,Ajuntament de Castelló
-0,0,0,Fons de Contingència
-0,0,1,Òrgans Polítics
-0,0,2,Serveis Generals
-0,0,4,"Hisenda, Modernització i Administració Municipal"
-0,0,5,Serveis a la Ciutadania
-0,0,6,"Desenvolupament de la Ciutat, Sostenibilitat, Medi Ambient, Habitatge i Serveis Urbans"
-0,0,7,Seguretat Pública
-# Codis per al 2016
-1,,,Ajuntament de Castelló
-1,0,,Ajuntament de Castelló
-1,0,0,Fons de Contingència
-1,0,1,Grups Polítics i Òrgans de Govern
-1,0,2,Serveis Generals
-1,0,3,Area de Govern Obert i Participació
-1,0,4,"Àrea d'Innovació, Ocupació i Creativitat Ciutadana"
-1,0,5,Area de Drets i Serveis
-# Nota: la següent línia s'usa només per als ingressos, l'aplicació necessita que el camp
-# 'Departament' no estigui buit per poder mostrar el desglossament Orgànic
-9,,,Ajuntament de Castelló
-9,9,9,Ajuntament de Castelló
+#Institución,Sección,Departamento,Nombre
+0,,,Ayuntamiento de Castellón
+0,0,,Ayuntamiento de Castellón
+0,0,0,Fondo de Contingencia
+0,0,1,Organos Politicos
+0,0,2,Servicios Generales
+0,0,4,"Hacienda, Modernización y Administración Municipal"
+0,0,5,Servicios a la Ciudadanía
+0,0,6,"Desarrollo de la Ciudad, Sostenibilidad, Medio Ambiente, Vivienda y Servicios Urbanos"
+0,0,7,Seguridad Pública
+#Códigos para 2016
+1,,,Ayuntamiento de Castellón
+1,0,,Ayuntamiento de Castellón
+1,0,0,Fondo de Contingencia
+1,0,1,Grupos Politicos y Organos de Gobierno
+1,0,2,Servicios Generales
+1,0,3,Area de Gobierno Abierto y Participación
+1,0,4,"Area de Innovación, Empleo y Creatividad Ciudadana"
+1,0,5,Area de Derechos y Servicios
+# Nota: la siguiente línea se usa sólo para los ingresos, la aplicación necesita que el campo
+# 'departamento' no esté vacío para poder mostrar el desglose orgánic
+9,,,Ayuntamiento de Castellón
+9,9,9,Ayuntamiento de Castellón
