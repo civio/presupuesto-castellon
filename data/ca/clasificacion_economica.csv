@@ -525,15 +525,15 @@ G,9,4,1,Devolución de fianzas
 I,4,7,0,De empresas privadas
 I,4,8,0,De familias e instituciones sin fines de lucro
 I,5,2,0,Intereses de depósitos
-I,7,5,4,
+I,7,5,4,De comunidades autónomas
 G,2,7,0,Gastos imprevistos y funciones no clasificadas
 G,4,1,0,A organismos autónomos de la entidad local
 G,4,8,0,A familias e instituciones sin fines de lucro
 G,4,8,1,A familias e instituciones sin fines de lucro
 G,4,8,2,A familias e instituciones sin fines de lucro
 G,4,8,9,A familias e instituciones sin fines de lucro
-G,6,0,1,
-G,6,0,2,
-G,6,1,1,
-G,6,1,2,
-G,7,8,9,
+G,6,0,1,Otras inversiones
+G,6,0,2,Otras inversiones
+G,6,1,1,Otras inversiones
+G,6,1,2,Otras inversiones
+G,7,8,9,De familias e instituciones sin fines de lucro
