@@ -18,24 +18,9 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
         programme_mapping = {
             # old programme: new programme
-            '13320': '13300',     # TRAFICO
-            '13300': '13400',     # SECC.MOVILIDAD URBANA
-            '13310': '13410',     # UNID.ADMIN.MOVILIDAD URBANA
-            '13310': '13330',     # UNID.TECN.MOV.URBANA
-            '15120': '15110',     # SEC.CONTROL URBANISTICO
-            '15500': '15300',     # SECCION INFRA. SS PP Y M.A.
-            '15540': '15330',     # BRIGADAS MUNICIPALES
-            '15530': '15350',     # CONSERVACION
-            '15510': '15370',     # NEG.ADMIN.INFRAESTRUCTURAS
-            '17900': '17220',     # PROYECTOS EUROPEOS
-            '23010': '23100',     # SECCION SERV.SOCIALES Y CULTURALES
-            '23220': '23110',     # DINAMIZACION COMUNITARIA
-            '31300': '31100',     # SANIDAD
-            '33200': '33210',     # BIBLIOTECAS
-            '33500': '33420',     # BANDA MUSICA
-            '44100': '44110',     # TRANSPORTE PUBLICO
-            '15520': '92030',     # INGENIERIA
-            '92300': '92310',     # ESTADISTICA
+            '1340': '1350',
+            '1350': '1360',
+            '3130': '3110'
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
@@ -43,6 +28,9 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         if is_expense:
             fc_code = self.clean(line[1]).zfill(4)      # Fill with zeroes on the left if needed
             ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
+
+            # FOO: XXXX FIXME
+            fc_code = fc_code[:3]+'0'
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
