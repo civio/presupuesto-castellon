@@ -35,19 +35,18 @@
 #
 # Programas específicos de Castelló
 0,1,1,0,Deuda pública
-1,3,0,0,Neg.admin.seguridad
-1,3,0,1,Unidad dir.seg.y serv.
+1,3,0,0,Administración general seguridad y protección
 1,3,2,0,Unidad de apoyo
 1,3,2,1,Policía Judicial
-1,3,2,2,Seguridad Ciudadana
-1,3,2,3,Seguridad y Logística
-1,3,2,4,Policía Distritos
-1,3,2,5,Agrupación de Tráfico
-1,3,3,0,Trafico
-1,3,3,1,U.T.movilidad urbana
-1,3,3,3,Unidad Semáforos
-1,3,4,0,Secc.Movilidad Urbana
-1,3,4,1,Unid.admin.movilidad urbana
+1,3,2,2,Seguridad ciudadana
+1,3,2,3,Seguridad y logística
+1,3,2,4,Policía distritos
+1,3,2,5,Agrupación de tráfico
+1,3,3,0,Tráfico
+1,3,3,1,Unidad técnica de movilidad urbana
+1,3,3,3,Unidad semáforos
+1,3,4,0,Sección de movilidad urbana
+1,3,4,1,Unidad administrativa de movilidad urbana
 1,3,5,0,Protección civil
 1,3,6,0,Extinción de incendios
 1,5,0,0,Coordinador Área Servicios
