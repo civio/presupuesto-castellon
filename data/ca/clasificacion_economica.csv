@@ -137,8 +137,8 @@ I,4,6,6,D'altres entitats que agrupen municipis
 I,4,6,7,De consorcis
 I,4,6,8,D'Entitats Locals menors
 I,4,7,,D'empreses privades
-I,4,8,,De famílies e institucions sense fins de lucre
-I,4,8,9,De famílies e institucions sense fins de lucre
+I,4,8,,De famílies e institucions sense ànim de lucre
+I,4,8,9,De famílies e institucions sense ànim de lucre
 I,4,9,,De l'exterior
 I,4,9,0,Del Fons Social Europeu
 I,4,9,1,Del Fons de desenvolupament Regional
@@ -225,7 +225,7 @@ I,7,6,6,D'altres entitats que agrupen municipis
 I,7,6,7,De consorcis
 I,7,6,8,D'Entitats Locals menors
 I,7,7,,D'empreses privades
-I,7,8,,De famílies e institucions sense fins de lucre
+I,7,8,,De famílies e institucions sense ànim de lucre
 I,7,9,,De l'exterior
 I,7,9,0,Del Fons Social Europeu
 I,7,9,1,Del Fons de desenvolupament Regional
@@ -341,7 +341,7 @@ G,2,4,,Despeses de publicitat
 G,2,4,0,Despeses d'edificis i distribució
 G,2,5,,Treballs realitzades per administracions públiques i altres entitats públiques
 G,2,5,0,Treballs realitzades per administracions públiques i altres entitats públiques
-G,2,6,,Treballs realitzats per institucions sense fins de lucre
+G,2,6,,Treballs realitzats per institucions sense ànim de lucre
 G,2,7,,Despeses imprevistes
 G,3,,,Despeses financeres
 G,3,0,,De deute públic en euros
@@ -404,7 +404,7 @@ G,4,7,0,Subvencions per al foment de l'ocupació
 G,4,7,1,Subvencions per a bonificació d'interessos i primes d'assegurances
 G,4,7,2,Subvencions per reduir el preu a pagar pels consumidors
 G,4,7,9,Altres subvencions a empreses privades
-G,4,8,,A famílies e institucions sense fins de lucre
+G,4,8,,A famílies e institucions sense ànim de lucre
 G,4,9,,A l'exterior
 G,5,,,Fons de contingència
 G,5,0,,Fons de contingència
@@ -475,8 +475,8 @@ G,7,6,7,A consorcis
 G,7,6,8,A Entitats Locals menors
 G,7,7,,A empreses privades
 G,7,7,0,A empreses privades
-G,7,8,,A famílies e institucions sense fins de lucre
-G,7,8,1,A famílies e institucions sense fins de lucre
+G,7,8,,A famílies e institucions sense ànim de lucre
+G,7,8,1,A famílies e institucions sense ànim de lucre
 G,7,9,,A l'exterior
 G,8,,,Actius financers
 G,8,0,,Adquisició de deute del sector públic
@@ -523,17 +523,17 @@ G,9,4,1,Devolució de fiances
 #
 # Conceptos específicos de Castelló
 I,4,7,0,D'empreses privades
-I,4,8,0,De famílies i institucions sense fins de lucre
+I,4,8,0,De famílies i institucions sense ànim de lucre
 I,5,2,0,Interessos de dipòsits
 I,7,5,4,De comunitats autònomes
 G,2,7,0,Despeses imprevistes i funcions no classificades
 G,4,1,0,A organismes autònoms de l'entitat local
-G,4,8,0,A famílies i institucions sense fins de lucre
-G,4,8,1,A famílies i institucions sense fins de lucre
-G,4,8,2,A famílies i institucions sense fins de lucre
-G,4,8,9,A famílies i institucions sense fins de lucre
+G,4,8,0,A famílies i institucions sense ànim de lucre
+G,4,8,1,A famílies i institucions sense ànim de lucre
+G,4,8,2,A famílies i institucions sense ànim de lucre
+G,4,8,9,A famílies i institucions sense ànim de lucre
 G,6,0,1,Altres inversions
 G,6,0,2,Altres inversions
 G,6,1,1,Altres inversions
 G,6,1,2,Altres inversions
-G,7,8,9,De famílies i institucions sense fins de lucre
+G,7,8,9,De famílies i institucions sense ànim de lucre
