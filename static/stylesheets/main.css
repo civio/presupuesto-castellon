@@ -6993,14 +6993,14 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
     right: 1em;
   }
   .home-intro .options > div {
-    width: 44%;
+    width: 28%;
   }
   #main-menu ul {
     font-size: 16px;
   }
   #main-menu ul li {
     border: none;
-    width: 33.33%;
+    width: 25%;
   }
   #main-menu ul li [class*="icon-"]:before {
     position: relative;
