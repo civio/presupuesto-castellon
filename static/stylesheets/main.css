@@ -5686,6 +5686,7 @@ Ese "25" es lo que indenta.
 .quantity-selection select {
   font-size: .875em;
   margin-bottom: .5em;
+  height: 33px;
 }
 .quantity-selection .glossary-link {
   font-size: .75em;
@@ -5694,10 +5695,13 @@ Ese "25" es lo que indenta.
   text-transform: uppercase;
 }
 .data-controllers.functional_view .quantity-selection {
-  margin-left: 2em;
+  text-align: center;
 }
 .layout-slider {
   height: 3.5em;
+}
+.data-controllers .layout-slider {
+  margin-top: -6px;
 }
 .form-user-incomings {
   background: #e6e6e6;
@@ -6989,14 +6993,14 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
     right: 1em;
   }
   .home-intro .options > div {
-    width: 44%;
+    width: 28%;
   }
   #main-menu ul {
     font-size: 16px;
   }
   #main-menu ul li {
     border: none;
-    width: 33.33%;
+    width: 25%;
   }
   #main-menu ul li [class*="icon-"]:before {
     position: relative;
@@ -7028,6 +7032,14 @@ header[role="banner"] > .container-fluid .open-data-logo:hover {
 @media screen and (max-width: 768px) {
   .nav-rwd > li:last-child {
     border-top: 1px solid #1c282e;
+  }
+}
+.data-controllers.functional_view .quantity-selection {
+  margin-left: 4.5em;
+}
+@media (max-width: 767px) {
+  .data-controllers.functional_view .quantity-selection {
+    margin: 0.5em 0;
   }
 }
 .chartWrap {

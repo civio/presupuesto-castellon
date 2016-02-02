@@ -388,11 +388,24 @@ msgstr "Ingressos i despeses"
 msgid "Ingresos"
 msgstr "Ingressos"
 
+#: budget_app/views/entities.py:228
+msgid "¿Cómo se ingresa?"
+msgstr "Com s'ingressa?"
+
+msgid "Tipo de ingresos"
+msgstr "Tipus d'ingressos"
+
+msgid "¿Quién recauda?"
+msgstr "Qui recapta?"
+
 msgid "¿Cómo se gasta?"
 msgstr "Com es gasta?"
 
 msgid "¿En qué se gasta?"
 msgstr "En què es gasta?"
+
+msgid "¿Cómo se financia?"
+msgstr "Com es finança?"
 
 msgid "¿Quién lo gasta?"
 msgstr "Qui ho gasta?"
@@ -513,17 +526,17 @@ msgstr "Pots escollir el tipus de situació que millor reflecteix la teva realit
 msgid "Inmueble"
 msgstr "Immoble"
 
-msgid "Piso de 80 m² situado en la zona del mercado"
-msgstr "Pis de 80 m² situat a la zona del mercat"
+msgid "Piso de 80 m² en la zona centro"
+msgstr "Pis de 80 m² a la zona centre"
 
-msgid "Piso de 110 m² situado en el centro, nueva construcción"
-msgstr "Pis de 110 m² situat a la centre, nova construcció"
-
-msgid "Casa unifamiliar adosada en el centro del pueblo"
-msgstr "Casa unifamiliar entre mitjeres centre poble"
+msgid "Piso de 110 m² en la zona centro"
+msgstr "Pis de 110 m² a la zona centre"
 
 msgid "Casa unifamiliar aislada en urbanización"
 msgstr "Casa unifamiliar aillada urbanització"
+
+msgid "Casa unifamiliar adosada en zona de expansión"
+msgstr "Casa unifamiliar adossada en zona d'expansió"
 
 msgid "IBI + Tasa de basuras"
 msgstr "IBI + taxa d’escombraries"
@@ -573,14 +586,11 @@ msgstr "Taxes"
 msgid "Unidad familiar"
 msgstr "Unitat familiar"
 
-msgid "Un adulto y dos menores"
-msgstr "Un adult i dos menors"
-
-msgid "Dos adultos y dos menores"
-msgstr "Dos adults i dos menors"
-
-msgid "Dos adultos jubilados"
-msgstr "Dos adults jubilats"
+msgid "Todos los miembros en desempleo"
+msgstr "Tots els membres a l'atur"
+      
+msgid "Ninguna de las opciones anteriores"
+msgstr "Cap de les anteriors"
 
 msgid "Familia numerosa"
 msgstr "Familia nombrosa"

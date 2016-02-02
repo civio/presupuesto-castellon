@@ -342,7 +342,7 @@ header[role="banner"] {
   }
 
   .home-intro .options > div {
-    width: 44%;
+    width: 28%;
   }
 
   #main-menu ul{
@@ -350,7 +350,7 @@ header[role="banner"] {
     
     li{
       border: none;
-      width: 33.33%;
+      width: 25%;
 
       [class*="icon-"]:before {
         position: relative;
@@ -393,5 +393,17 @@ header[role="banner"] {
 @media screen and (max-width: 768px) {
   .nav-rwd > li:last-child {
     border-top: 1px solid #1c282e;
+  }
+}
+
+// Fix Politicas / Data-Controller buttons overlapping
+
+.data-controllers.functional_view .quantity-selection {
+  margin-left: 4.5em;
+}
+
+@media (max-width: 767px){
+  .data-controllers.functional_view .quantity-selection{
+    margin: 0.5em 0;
   }
 }

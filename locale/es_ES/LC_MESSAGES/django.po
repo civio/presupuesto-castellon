@@ -261,3 +261,6 @@ msgstr "Total de gastos y pagos"
 
 msgid "Las cantidades de estos indicadores se publicarán una vez liquidado el presupuesto del año corriente en el primer trimestre del año siguiente."
 msgstr ""
+
+msgid "Contribuyes con un total de <b id=\"tax-amount-paid\"></b> a los presupuestos del Ayuntamiento de Rubí"
+msgstr "Contribuyes con un total de <b id=\"tax-amount-paid\"></b> a los presupuestos del Ayuntamiento de Castellón de la Plana"
