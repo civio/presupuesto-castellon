@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Donde van mis impuestos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2016-01-28 16:00+0100\n"
+"PO-Revision-Date: 2016-02-05 04:29+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/donde-van-mis-impuestos/language/ca/)\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: templates/budgets/budgets_indicators.html:1
 msgid "Indicadores presupuestarios en"
@@ -588,7 +588,7 @@ msgstr "Unitat familiar"
 
 msgid "Todos los miembros en desempleo"
 msgstr "Tots els membres a l'atur"
-      
+
 msgid "Ninguna de las opciones anteriores"
 msgstr "Cap de les anteriors"
 
@@ -624,3 +624,6 @@ msgstr "fins al segon trimestre"
 
 msgid "hasta el tercer trimestre"
 msgstr "fins al tercer trimestre"
+
+msgid "Esta web permite descargar los datos que ofrecemos, pero la responsabilidad de las posibles modificaciones que se haga sobre esos datos una vez descargados recae en los usuarios, en ningún caso en el Ayuntamiento."
+msgstr "Aquesta pàgina web permet descarregar i treballar amb les dades que oferim, però la responsabilitat de les posibles modificacions sobre les dades descarregades recau en els usuaris, i en cap cas en l'Ajuntament."
