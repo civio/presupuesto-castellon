@@ -6784,7 +6784,7 @@ header[role="banner"] > .container-fluid .logo {
   height: 92px;
   text-indent: -9999px;
   overflow: hidden;
-  background: url(../assets/logo.png) no-repeat 0 0 #ffffff;
+  background: url(../assets/logo.png) no-repeat 0 0 white;
   margin: 8px auto;
 }
 header[role="banner"] > .container-fluid .open-data-logo {
