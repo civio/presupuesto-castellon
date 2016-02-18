@@ -29,8 +29,11 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             fc_code = self.clean(line[1]).zfill(4)      # Fill with zeroes on the left if needed
             ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
 
-            # FOO: XXXX FIXME
-            fc_code = fc_code[:3]+'0'
+            # We're sticking with the first three digits, i.e. groups of programmes,
+            # because we don't have a proper list of programmes, the data is noisy.
+            # Except in the case of policy 24 (Employment) where the client asked for more detail.
+            if fc_code[:2] != '24':
+                fc_code = fc_code[:3]+'0'
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)

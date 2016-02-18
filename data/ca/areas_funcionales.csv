@@ -60,7 +60,16 @@
 2,3,1,0,Assistència social primària
 2,3,2,0,Promoció social
 2,3,3,0,Atenció a la dependència
-2,4,1,0,Foment de l'ocupació
+2,4,1,0,Agència de Desenvolupament Local (ADL)
+2,4,1,1,E.T.
+2,4,1,2,Taller d'ocupació
+2,4,1,3,Projecte ocupació Jornals de Vila
+2,4,1,4,Servei Públic d'Ocupació Estatal (SEPE)
+2,4,1,5,Salari Jove
+2,4,1,6,Formació ocupacional pròpia
+2,4,1,7,Pla ocupació conjunt
+2,4,1,8,Cursos vivers i neteja
+2,4,1,9,Consorci Pacte Local per a la Ocupació
 3,1,1,0,Sanitat
 3,1,2,0,Servei d'assistència mèdica urgent
 3,2,0,0,Educació
