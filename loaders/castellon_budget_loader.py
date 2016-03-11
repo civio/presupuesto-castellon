@@ -26,7 +26,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         is_expense = (filename.find('gastos.csv')!=-1)
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
-            fc_code = self.clean(line[1]).zfill(4)      # Fill with zeroes on the left if needed
+            fc_code = self.clean(line[1]).zfill(5)      # Fill with zeroes on the left if needed
             ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
 
             # We're sticking with the first three digits, i.e. groups of programmes,
