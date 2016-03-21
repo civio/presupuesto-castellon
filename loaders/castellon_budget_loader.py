@@ -20,7 +20,21 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             # old programme: new programme
             '1340': '1350',
             '1350': '1360',
-            '3130': '3110'
+            '3130': '3110',
+            '3321': '3320',
+            '3322': '3320',
+            '3350': '3342',
+            '9222': '9220',
+        }
+
+        programme_mapping_from_2015 = {
+            # old programme: new programme
+            '3321': '3320',
+            '3322': '3320',
+            '3344': '3340',
+            '9207': '9200',
+            '9222': '9220',
+            '9231': '9230',
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
@@ -31,16 +45,21 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
 
             # We're sticking with the first three digits, i.e. groups of programmes,
             # because we don't have a proper list of programmes, the data is noisy.
-            # Except in the case of policy 24 (Employment) where the client asked for more detail.
-            if fc_code[:2] != '24':
+            # Except in the case of policies 24 (Employment), 34 (Culture) and 92 (General
+            # Services), where the client asked for more detail.
+            # (We could do this just through the programme mapping, but since we started
+            # like this...)
+            if fc_code[:2] in ['24', '33', '92']:
+                fc_code = fc_code[:4]
+            else:
                 fc_code = fc_code[:3]+'0'
 
             # For years before 2015 we check whether we need to amend the programme code
             year = re.search('municipio/(\d+)/', filename).group(1)
             if year in ['2013', '2014']:
-                new_programme = programme_mapping.get(fc_code)
-                if new_programme:
-                    fc_code = new_programme
+                fc_code = programme_mapping.get(fc_code, fc_code)
+            else:
+                fc_code = programme_mapping_from_2015.get(fc_code, fc_code)
 
             # For years before 2016 we check whether we need to amend the institutional code
             if year not in ['2013', '2014', '2015']:

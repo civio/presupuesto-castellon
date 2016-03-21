@@ -79,7 +79,9 @@
 3,3,2,0,Bibliotecas y Archivos
 3,3,3,0,Equipamientos culturales y museos: Planetario
 3,3,4,0,Cultura
-3,3,5,0,Banda de música
+3,3,4,1,Normalización lingüística
+3,3,4,2,Banda de música
+3,3,4,3,Ermitas
 3,3,6,0,Protección y gestión del Patrimonio Histórico-Artístico
 3,3,7,0,Instalaciones de ocupación del tiempo libre: juventud
 3,3,8,0,Fiestas populares y festejos
@@ -92,6 +94,12 @@
 4,9,3,0,Protección de consumidores y usuarios
 9,1,2,0,Órganos de gobierno
 9,2,0,0,Administración general
+9,2,0,1,Asesoría jurídica
+9,2,0,2,Patrimonio
+9,2,0,3,Ingeniería / Dependencias
+9,2,0,4,Parque móvil
+9,2,0,5,Informática
+9,2,0,6,Recursos Humanos
 9,2,2,0,Coordinación y organización institucional de las entidades locales
 9,2,3,0,Información básica y estadística
 9,2,4,0,Participación ciudadana

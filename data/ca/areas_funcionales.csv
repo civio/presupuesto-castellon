@@ -79,7 +79,9 @@
 3,3,2,0,Biblioteques i Arxius
 3,3,3,0,Equipaments culturals i museus: Planetari
 3,3,4,0,Cultura
-3,3,5,0,Banda de música
+3,3,4,1,Normalització lingüística
+3,3,4,2,Banda de música
+3,3,4,3,Ermites
 3,3,6,0,Protecció i gestió del Patrimoni Històric-Artístic
 3,3,7,0,Instal·lacions d'ocupació del temps lliure: joventut
 3,3,8,0,Festes populars i celebracions
@@ -92,6 +94,12 @@
 4,9,3,0,Protecció de consumidors i usuaris
 9,1,2,0,Òrgans de govern
 9,2,0,0,Administració general
+9,2,0,1,Assessoria jurídica
+9,2,0,2,Patrimoni
+9,2,0,3,Enginyeria / Dependències
+9,2,0,4,Parc mòbil
+9,2,0,5,Informàtica
+9,2,0,6,Recursos Humans
 9,2,2,0,Coordinació i organització institucional de les entitats locals
 9,2,3,0,Informació bàsica i estadística
 9,2,4,0,Participació ciutadana
