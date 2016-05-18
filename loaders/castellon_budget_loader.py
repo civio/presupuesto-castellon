@@ -80,7 +80,10 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
                 # only one line per economic code. But due to the manipulation of programme
                 # codes done above, where we discard some info, we need to include that
                 # discarded info to avoid items being grouped unintentionally.
-                'item_number': ec_code[-2:]+fc_code_last_digits,
+                # Unfortunately the budget item is defined as three digits in the database,
+                # and the site is not running on the latest core version, so we'll keep only
+                # the last digit from the economic code for now.
+                'item_number': ec_code[-1:]+fc_code_last_digits,
                 'description': line[3],
                 'amount': self._parse_amount(line[7 if is_actual else 4])
             }
