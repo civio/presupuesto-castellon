@@ -41,6 +41,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
             fc_code = self.clean(line[1]).zfill(5)      # Fill with zeroes on the left if needed
+            fc_code_last_digits = fc_code[-2:]          # See below for explanation
             ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
 
             # We're sticking with the first three digits, i.e. groups of programmes,
@@ -65,26 +66,33 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             if year not in ['2013', '2014', '2015']:
                 ic_code = '1'+ic_code[1:]
 
+            ec_code = self.clean(line[2])
             return {
                 'is_expense': True,
                 'is_actual': is_actual,
                 # After some tests and debate it was decided to use programs (i.e. 4 digit codes)
                 # instead of subprograms (5 digits). So we keep just the first four digits.
                 'fc_code': fc_code[:4],
-                'ec_code': self.clean(line[2]),
+                'ec_code': ec_code,
                 'ic_code': ic_code,
-                'item_number': self.clean(line[2])[-2:],    # Last two digits
+                # The item number is used to avoid collision among budget lines. Normally
+                # the discarded digits of the economic code would be enough, since there's
+                # only one line per economic code. But due to the manipulation of programme
+                # codes done above, where we discard some info, we need to include that
+                # discarded info to avoid items being grouped unintentionally.
+                'item_number': ec_code[-2:]+fc_code_last_digits,
                 'description': line[3],
                 'amount': self._parse_amount(line[7 if is_actual else 4])
             }
 
         else:
+            ec_code = self.clean(line[1])
             return {
                 'is_expense': False,
                 'is_actual': is_actual,
-                'ec_code': self.clean(line[1]),
+                'ec_code': ec_code,
                 'ic_code': '999',                           # All income goes to the root node (999)
-                'item_number': self.clean(line[1])[-2:],    # Last two digits
+                'item_number': ec_code[-2:],                # Last two digits
                 'description': line[2],
                 'amount': self._parse_amount(line[6 if is_actual else 3])
             }
