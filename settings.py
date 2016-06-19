@@ -32,7 +32,7 @@ SEARCH_ENTITIES = False
 # Supported languages. Default: ('ca', 'Catal&agrave;')
 LANGUAGES = (
   ('ca', 'Valenci&agrave;'),
-  ('es-ES', 'Castellano')
+  ('es', 'Castellano')
 )
 
 # Allow overriding of default treemap color scheme
