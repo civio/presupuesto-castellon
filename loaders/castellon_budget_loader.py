@@ -12,6 +12,14 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
     def clean(self, s):
         return s.split('.')[0]
 
+    # The item number is used to avoid collision among budget lines. Normally
+    # the discarded digits of the economic code would be enough, since there's
+    # only one line per economic code. But due to the manipulation of programme
+    # codes done above, where we discard some info, we need to include that
+    # discarded programme info to avoid items being grouped unintentionally.
+    def get_item_number(self, fc_code, ec_code):
+        return fc_code[-3:]+ec_code[3:]
+
     def parse_item(self, filename, line):
         # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
@@ -41,8 +49,12 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
         is_actual = (filename.find('/ejecucion_')!=-1)
         if is_expense:
             fc_code = self.clean(line[1]).zfill(5)      # Fill with zeroes on the left if needed
-            fc_code_last_digits = fc_code[-2:]          # See below for explanation
             ic_code = self.clean(line[0]).zfill(3)      # Fill with zeroes on the left if needed
+            ec_code = self.clean(line[2])
+
+            # Due to the data structure getting a unique item number (for a given
+            # final programme code) is tricky
+            item_number = self.get_item_number(fc_code, ec_code)
 
             # We're sticking with the first three digits, i.e. groups of programmes,
             # because we don't have a proper list of programmes, the data is noisy.
@@ -66,7 +78,6 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             if year not in ['2013', '2014', '2015']:
                 ic_code = '1'+ic_code[1:]
 
-            ec_code = self.clean(line[2])
             return {
                 'is_expense': True,
                 'is_actual': is_actual,
@@ -75,15 +86,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
                 'fc_code': fc_code[:4],
                 'ec_code': ec_code,
                 'ic_code': ic_code,
-                # The item number is used to avoid collision among budget lines. Normally
-                # the discarded digits of the economic code would be enough, since there's
-                # only one line per economic code. But due to the manipulation of programme
-                # codes done above, where we discard some info, we need to include that
-                # discarded info to avoid items being grouped unintentionally.
-                # Unfortunately the budget item is defined as three digits in the database,
-                # and the site is not running on the latest core version, so we'll keep only
-                # the last digit from the economic code for now.
-                'item_number': ec_code[-1:]+fc_code_last_digits,
+                'item_number': item_number,
                 'description': line[3],
                 'amount': self._parse_amount(line[7 if is_actual else 4])
             }
