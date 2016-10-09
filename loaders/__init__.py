@@ -1,2 +1,1 @@
 from castellon_budget_loader import CastellonBudgetLoader
-from castellon_payments_loader import CastellonPaymentsLoader
