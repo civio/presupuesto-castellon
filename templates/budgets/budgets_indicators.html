@@ -1,43 +1,69 @@
-<h1 class="page-title" id="indicadores">{{ _('Indicadores presupuestarios en') }} <span id="indicators-year"></span></h1>
-
-<div id="totals_panel">
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Resultado presupuestario ajustado') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Resultado presupuestario ajustado') }}"></a> {{ _('Resultado presupuestario ajustado') }}</span> 
-    <b class="value value-2013">8.186.425,97 €</b>
-    <b class="value value-2014">12.568.171,50 €</b>
-    <b class="value value-2015">19.703.804,41 €</b>
-  </p>
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Remanente de tesoreria para gastos generales') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Remanente de tesoreria para gastos generales') }}"></a> {{ _('Remanente de tesoreria para gastos generales') }}</span>
-    <b class="value value-2013">190.787,97 €</b>
-    <b class="value value-2014">3.448.139,25 €</b>
-    <b class="value value-2015">14.171.929,45 €</b>
-  </p>
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Ahorro neto') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Ahorro bruto – capítulo IX de gastos (pasivos financieros)') }}"></a> {{ _('Ahorro neto') }}</span>
-    <b class="value value-2013">10.346.107,53 €</b>
-    <b class="value value-2014">18.083.485,87 €</b>
-    <b class="value value-2015">26.100.927,50 €</b>
-  </p>
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Capacidad/Necesidad de financiación') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Ingresos no financieros (capítulos I-VII) – Gastos no financieros (capítulos I-VII)') }}"></a> {{ _('Capacidad/Necesidad de financiación') }}</span>
-    <b class="value value-2013">23.816.984,54 €</b>
-    <b class="value value-2014">26.570.640,44 €</b>
-    <b class="value value-2015">28.379.484,34 €</b>
-  </p>
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Regla del gasto') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Regla del gasto') }}"></a> {{ _('Regla del gasto') }}</span>
-    <b class="value value-2013">CUMPLIMIENTO</b>
-    <b class="value value-2014">CUMPLIMIENTO</b>
-    <b class="value value-2015">CUMPLIMIENTO</b>
-  </p>
-  <p class="total">
-    <span><a href="/glosario?q={{ _('Deuda viva') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="" data-original-title="{{ _('Deuda viva') }}"></a> {{ _('Deuda viva') }}</span>
-    <b class="value value-2013">124.830.812,76 €</b>
-    <b class="value value-2014">127.236.737,02 €</b>
-    <b class="value value-2015">97.278.063,22 €</b>
-  </p>
+<div class="panel indicators">
+  <div class="panel-title row">
+    <div class="col-sm-12">{{ _('Indicadores presupuestarios') }}</div>
+  </div>
+  <div class="panel-content">
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Resultado presupuestario ajustado') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Resultado presupuestario ajustado') }}"></a> {{ _('Resultado presupuestario ajustado') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">8.186.425,97 €</strong>
+        <strong class="value value-2014">12.568.171,50 €</strong>
+        <strong class="value value-2015">19.703.804,41 €</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Remanente de tesoreria para gastos generales') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Remanente de tesoreria para gastos generales') }}"></a> {{ _('Remanente de tesoreria para gastos generales') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">190.787,97 €</strong>
+        <strong class="value value-2014">3.448.139,25 €</strong>
+        <strong class="value value-2015">14.171.929,45 €</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Ahorro neto') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Ahorro bruto – capítulo IX de gastos (pasivos financieros)') }}"></a> {{ _('Ahorro neto') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">10.346.107,53 €</strong>
+        <strong class="value value-2014">18.083.485,87 €</strong>
+        <strong class="value value-2015">26.100.927,50 €</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Capacidad/Necesidad de financiación') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Ingresos no financieros (capítulos I-VII) – Gastos no financieros (capítulos I-VII)') }}"></a> {{ _('Capacidad/Necesidad de financiación') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">23.816.984,54 €</strong>
+        <strong class="value value-2014">26.570.640,44 €</strong>
+        <strong class="value value-2015">28.379.484,34 €</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Regla del gasto') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Regla del gasto') }}"></a> {{ _('Regla del gasto') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">CUMPLIMIENTO</strong>
+        <strong class="value value-2014">CUMPLIMIENTO</strong>
+        <strong class="value value-2015">CUMPLIMIENTO</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-8">
+        <a href="{{ url('budget_app.views.terms')+'?q='+_('Deuda viva') }}" class="icon-question" data-toggle="tooltip" data-placement="right" title="{{ _('Deuda viva') }}"></a> {{ _('Deuda viva') }}
+      </div>
+      <div class="col-sm-4">
+        <strong class="value value-2013">124.830.812,76 €</strong>
+        <strong class="value value-2014">127.236.737,02 €</strong>
+        <strong class="value value-2015">97.278.063,22 €</strong>
+      </div>
+    </div>
+  </div>
 </div>
 
-<p class="footnote tcenter">{{ _('Las cantidades de estos indicadores se publicarán una vez liquidado el presupuesto del año corriente en el primer trimestre del año siguiente.') }}</p>
-
+<p class="text-center"><small>{{ _('Las cantidades de estos indicadores se publicarán una vez liquidado el presupuesto del año corriente en el primer trimestre del año siguiente.') }}</small></p>
