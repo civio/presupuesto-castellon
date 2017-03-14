@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Donde van mis impuestos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2016-12-13 12:20+0100\n"
+"PO-Revision-Date: 2017-03-14 13:29+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/donde-van-mis-impuestos/language/ca/)\n"
 "Language: ca\n"
@@ -16,9 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
-
-
+"X-Generator: Poedit 1.8.12\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -62,8 +60,6 @@ msgstr "D’on vénen els ingressos? En què i per a què és la despesa de l’
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Ajuntament de Castelló de la Plana"
 
-
-
 #: templates/payments/index.html:5
 msgid "Gastos del año vigente"
 msgstr "Despeses de l'any en curs efectuades segons l'execució pressupostària que és actualitzada diàriament."
@@ -76,11 +72,6 @@ msgstr "Menú de despeses i pagaments"
 
 msgid "Total de inversiones y pagos"
 msgstr "Total de despeses i pagaments"
-
-msgid "hasta el primer trimestre"
-msgstr "fins a novembre"
-
-
 
 msgid "Las cantidades de estos indicadores se publicarán una vez liquidado el presupuesto del año corriente en el primer trimestre del año siguiente."
 msgstr "Les quantitats d'aquests indicadors es publicaran un cop liquidat el pressupost de l'any corrent en el primer trimestre de l'any següent."
@@ -162,3 +153,6 @@ msgstr "Familia nombrosa"
 
 msgid "Tasa de basuras"
 msgstr "Taxa d'escombraries"
+
+msgid "hasta el primer trimestre"
+msgstr "fins a febrer"

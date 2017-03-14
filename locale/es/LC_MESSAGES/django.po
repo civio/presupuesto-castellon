@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dvmi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2016-12-13 12:20+0100\n"
+"PO-Revision-Date: 2017-03-14 13:28+0100\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Civio <contacto@civio.es>\n"
 "Language: es_ES\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.11\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -28,20 +28,17 @@ msgstr "Información presupuestaria del Ayuntamiento de Castellón de la Plana"
 
 #: templates/budgets/budgets_intro.html:16
 msgid ""
-"El dinero recaudado localmente se complementa con las transferencias de la Administración "
-"General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros "
-"ingresos como el IVA y el IRPF"
+"El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, "
+"que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
 msgstr ""
-"El dinero recaudado localmente se complementa con las transferencias de la Administración "
-"General del Estado y de la Comunidad Valenciana, que son los encargados de recaudar otros "
-"ingresos como el IVA y el IRPF"
+"El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y de la Comunidad "
+"Valenciana, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
 
 #: templates/budgets/index.html:17
 msgid "Ingresos y gastos en el Gobierno de Aragón"
 msgstr "Ingresos y gastos"
 
-#: templates/budgets/index.html:127 templates/shared/data_sources.html:7
-#: templates/shared/footer.html:18 templates/shared/header.html:28
+#: templates/budgets/index.html:127 templates/shared/data_sources.html:7 templates/shared/footer.html:18 templates/shared/header.html:28
 #: templates/shared/header.html.py:61 templates/welcome/index.html:54
 msgid "Gobierno de Aragón"
 msgstr "Ayuntamiento de Castellón de la Plana"
@@ -66,8 +63,6 @@ msgstr "¿Cómo y en qué gasta el Ayuntamiento de Castellón de la Plana?"
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Para que tengas una idea general de los ingresos y gastos del Ayuntamiento de Castellón de la Plana"
 
-
-
 #: templates/payments/index.html:5
 msgid "Gastos del año vigente"
 msgstr "Gastos del año vigente efectuados según la ejecución presupuestaria que es actualizada diariamente."
@@ -82,4 +77,4 @@ msgid "Total de inversiones y pagos"
 msgstr "Total de gastos y pagos"
 
 msgid "hasta el primer trimestre"
-msgstr "hasta noviembre"
+msgstr "hasta febrero"
