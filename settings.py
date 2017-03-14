@@ -137,8 +137,11 @@ FEATURED_PROGRAMMES = ['1710', '3261', '2410', '3263', '3340', '3370', '3410', '
 OVERVIEW_INCOME_NODES = [
                           {
                             'nodes': [['11', '113']],
-                            'link_id': '11'
-                          }, '13', '42', '43', '30', '33']
+                            'link_id': '11',
+                            'label.es': 'Impuesto sobre bienes inmuebles de naturaleza urbana',
+                            'label.ca': 'Impost sobre béns immobles de naturalesa urbana'
+                          },
+                          '13', '42', '30', '33']
 
 OVERVIEW_EXPENSE_NODES = ['23', '92', '13', '16', '15', '01', '33', '32', '44', '17']
 
