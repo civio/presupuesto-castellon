@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Donde van mis impuestos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2017-04-07 04:07+0200\n"
+"PO-Revision-Date: 2017-05-19 19:41+0200\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/donde-van-mis-impuestos/language/ca/)\n"
 "Language: ca\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0\n"
+"X-Generator: Poedit 2.0.2\n"
 
 #: templates/base.html:4 templates/shared/social_sharing.html:5
 msgid "Presupuestos del Gobierno de Aragón"
@@ -63,6 +63,21 @@ msgstr "Perquè et facis una idea general dels ingressos i les despeses de l'Aju
 #: templates/payments/index.html:5
 msgid "Gastos del año vigente"
 msgstr "Despeses de l'any en curs efectuades segons l'execució pressupostària que és actualitzada diàriament."
+
+msgid "Deuda viva"
+msgstr "Deute viu"
+
+msgid "Remanente de tesorería para gastos generales"
+msgstr "Romanent de tresoreria per a despeses generals"
+
+msgid "Regla del gasto"
+msgstr "Regla de la despesa"
+
+msgid "Resultado presupuestario ajustado"
+msgstr "Resultat pressupostari ajustat"
+
+msgid "CUMPLIMIENTO"
+msgstr "COMPLIMENT"
 
 msgid "Inversiones y pagos"
 msgstr "Despeses i pagaments"
