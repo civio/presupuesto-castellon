@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Donde van mis impuestos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-19 11:38+0200\n"
-"PO-Revision-Date: 2017-06-02 19:52+0200\n"
+"PO-Revision-Date: 2017-07-06 15:19+0200\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/donde-van-mis-impuestos/language/ca/)\n"
 "Language: ca\n"
@@ -169,5 +169,38 @@ msgstr "Familia nombrosa"
 msgid "Tasa de basuras"
 msgstr "Taxa d'escombraries"
 
-msgid "hasta el primer trimestre"
-msgstr "fins a maig"
+#
+# TODO: Remove when latest core deployed
+#
+msgid "hasta enero"
+msgstr "fins al gener"
+
+msgid "hasta febrero"
+msgstr "fins al febrer"
+
+msgid "hasta marzo"
+msgstr "fins al març"
+
+msgid "hasta abril"
+msgstr "fins a l'abril"
+
+msgid "hasta mayo"
+msgstr "fins al maig"
+
+msgid "hasta junio"
+msgstr "fins al juny"
+
+msgid "hasta julio"
+msgstr "fins al juliol"
+
+msgid "hasta agosto"
+msgstr "fins a l'agost"
+
+msgid "hasta septiembre"
+msgstr "fins al setembre"
+
+msgid "hasta octubre"
+msgstr "fins a l'octubre"
+
+msgid "hasta noviembre"
+msgstr "fins al novembre"
