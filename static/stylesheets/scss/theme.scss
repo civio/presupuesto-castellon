@@ -20,3 +20,53 @@
 .panel-downloads{
   border: none;
 }
+
+// Guided Visit
+.guidedvisit-content{
+  margin-top: $grid-gutter-width;
+  margin-bottom: 2*$grid-gutter-width;
+
+  .lead{
+    font-size: 1.25em;
+    font-style: normal;
+  }
+
+  h3{
+    margin: $grid-gutter-width 0 2*$grid-gutter-width/3;
+  }
+
+  p{
+    font-size: 1.125em;
+    margin-bottom: $grid-gutter-width/2;
+  }
+
+  a{
+    text-decoration: underline;
+  }
+
+  .img-responsive {
+    margin: 30px 0 30px;
+  }
+}
+
+.guidedvisit-menu{
+  padding: 0;
+  border-top: 1px solid $brand-terciary;
+
+  li{
+    list-style: none;
+    padding: 8px 0;
+    font-size: 1.125em;
+    border-bottom: 1px solid $brand-terciary;
+
+    a{
+      color: $text-color;
+      text-decoration: none;
+
+      &:hover{
+        color: $brand-primary;
+        text-decoration: none;
+      }
+    }
+  }
+}
