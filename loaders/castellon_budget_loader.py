@@ -1,12 +1,14 @@
 # -*- coding: UTF-8 -*-
 from budget_app.models import *
 from budget_app.loaders import SimpleBudgetLoader
-from decimal import *
-import csv
-import os
-import re
+
 
 class CastellonBudgetLoader(SimpleBudgetLoader):
+
+    # make year data available in the class and call super
+    def load(self, entity, year, path, status):
+        self.year = year
+        SimpleBudgetLoader.load(self, entity, year, path, status)
 
     # An artifact of the in2csv conversion of the original XLS files is a trailing '.0', which we remove here
     def clean(self, s):
@@ -15,7 +17,7 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
     # The item number is used to avoid collision among budget lines. Normally
     # the discarded digits of the economic code would be enough, since there's
     # only one line per economic code. But due to the manipulation of programme
-    # codes done above, where we discard some info, we need to include that
+    # codes done below, where we discard some info, we need to include that
     # discarded programme info to avoid items being grouped unintentionally.
     def get_item_number(self, fc_code, ec_code):
         return fc_code[-3:]+ec_code[3:]
@@ -68,14 +70,13 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
                 fc_code = fc_code[:3]+'0'
 
             # For years before 2015 we check whether we need to amend the programme code
-            year = re.search('municipio/(\d+)/', filename).group(1)
-            if year in ['2013', '2014']:
+            if self.year in ['2013', '2014']:
                 fc_code = programme_mapping.get(fc_code, fc_code)
             else:
                 fc_code = programme_mapping_from_2015.get(fc_code, fc_code)
 
-            # For years before 2016 we check whether we need to amend the institutional code
-            if year not in ['2013', '2014', '2015']:
+            # For years from 2016 we check whether we need to amend the institutional code
+            if self.year not in ['2013', '2014', '2015']:
                 ic_code = '1'+ic_code[1:]
 
             return {
