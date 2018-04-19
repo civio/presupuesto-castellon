@@ -230,6 +230,9 @@ msgstr "Qui ho gasta?"
 msgid "¿Cómo se gasta?"
 msgstr "Com es gasta?"
 
+msgid "¿Cómo se distribuyen tus impuestos? / Lo que tú aportas"
+msgstr "Com es distribueixen els teus impostos? / El que tu aportes"
+
 msgid "Si tienes dudas, consulta el glosario"
 msgstr "Si tens dubtes, consulta el glossari"
 
@@ -262,6 +265,9 @@ msgstr "La tercera pota d'un pressupost de despeses és la classificació econò
 
 msgid "Otro ejemplo: en el programa de <a href=\"/es/programas/4410/transporte-de-viajeros#view=economic\">transporte de viajeros</a> la franja más grande, siempre en azul, está destinada al pago de gastos corrientes en bienes y servicios. En este caso, se trata del dinero que abona el Ayuntamiento a las empresas y profesionales que se encargan de prestar los servicios de transporte."
 msgstr "Un altre exemple: en el programa de <a href=\"/ca/programas/4410/transport-de-viatgers#view=economic\">transport de viatgers</a> la franja més gran, sempre en blau, està destinada al pagament de despeses corrents en béns i serveis. En aquest cas, es tracta dels diners que abona l'Ajuntament a les empreses i professionals que s'encarreguen de prestar els serveis de transport."
+
+msgid "Queremos que conozcas cómo se distribuye el dinero que aportas con tus impuestos. En la sección <a href=\"/es/recibo\">Lo que tú aportas</a> hemos incorporado una sencilla aplicación para que, indicando los valores que más se aproximan a tu realidad, puedas consultar de forma aproximada cómo se distribuye la carga fiscal que aportas como contribuyente. Por ejemplo, si vives en pareja en un piso de 80 m² en la zona centro y tienes un coche pequeño, calculamos que aportas un poco más de 470 euros al Ayuntamiento de Castellón vía impuestos y tasas locales en 2018, y te mostramos cómo se distribuyen en políticas como Bienestar comunitario (unos 99 euros) o Medio Ambiente (casi 23 euros)."
+msgstr "Volem que coneguis com es distribueixen els diners que aportes amb els teus impostos. A la secció <a href=\"/ca/recibo\">El que tu aportes</a> hem incorporat una senzilla aplicació perquè, indicant els valors que més s'aproximen a la teva realitat, puguis consultar de forma aproximada com es distribueix la càrrega fiscal que aportes com a contribuent. Per exemple, si vius en parella en un pis de 80 m² a la zona centre i tens un cotxe petit, calculem que aportes una mica més de 470 euros a l'Ajuntament de Castelló via impostos i taxes locals en 2018, i et vam mostrar com es distribueixen en polítiques com Benestar comunitari (uns 99 euros) o Medi Ambient (gairebé 23 euros)."
 
 msgid "Conceptos como ahorro, tipos de clasificación del presupuesto (según queramos poner el foco en para qué se gasta, quién lo gasta o en qué se gasta) y definiciones de los principales impuestos están en el <a href=\"/es/glosario?page=1\">glosario</a>. Para que no te queden dudas."
 msgstr "Conceptes com estalvi, tipus de classificació del pressupost (segons vulguem posar el focus en per a què es gasta, qui el gasta o en què es gasta) i definicions dels principals impostos pots trobar-los al <a href=\"/ca/glosario?page=1\">glossari</a>. Perquè no et quedin dubtes."
