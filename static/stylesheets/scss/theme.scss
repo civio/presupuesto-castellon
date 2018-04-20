@@ -1,5 +1,18 @@
 @import "theme-variables";
 
+.navbar-default .navbar-nav>li {
+  font-size: 1.3rem;
+}
+
+@media (min-width: $grid-float-breakpoint) {
+  .navbar-default .navbar-nav>li.page-policies {
+    width: 14.66667%;
+  }
+  .navbar-default .navbar-nav>li.page-payments {
+    width: 18.66667%;
+  }
+}
+
 .home-content .options .option>div .icon{
   opacity: 0.6;
 }
