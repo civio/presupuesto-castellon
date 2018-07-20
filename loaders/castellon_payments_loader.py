@@ -36,7 +36,7 @@ class CastellonPaymentsLoader(PaymentsLoader):
         date = dateutil.parser.parse(date).strftime("%Y-%m-%d")
 
         # Normalize payee data
-        payee = line[1]
+        payee = line[1].strip()
         payee = 'Anonimizado' if payee == 'Este concepto recoge las personas físicas cuya identidad queda protegida en cumplimiento de la Ley Organica de Protección de Datos' else payee
 
         # We got some anonymized entries
@@ -44,7 +44,7 @@ class CastellonPaymentsLoader(PaymentsLoader):
         anonymized = (True if payee == 'Anonimizado' else anonymized)
 
         # We got the description
-        description = line[2]
+        description = line[2].strip()
 
         # We got a localized amount (e.g. 42.732,08) sometimes including the currency symbol (e.g. 70.162,49 €)
         amount = re.sub(r'[^\d.,-]+', '', line[4])
