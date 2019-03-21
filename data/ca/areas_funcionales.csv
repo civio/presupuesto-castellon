@@ -78,6 +78,7 @@
 3,2,1,0,Manteniment d'instal·lacions educatives
 3,2,3,0,Centres docents d'ensenyament preescolar i primària i educació especial
 3,2,6,0,Serveis complementaris d'educació: Pla "Xarxallibres"
+3,3,0,0,"Joventut, Cultura i Igualtat"
 3,3,2,0,Biblioteques i Arxius
 3,3,3,0,Equipaments culturals i museus: Planetari
 3,3,4,0,Cultura
@@ -89,6 +90,7 @@
 3,3,8,0,Festes populars i celebracions
 3,4,1,0,Promoció i foment de l'esport
 3,4,2,0,Instal·lacions esportives
+4,3,0,0,Activitat econòmica i ocupació
 4,3,1,0,Comerç
 4,3,2,0,Informació i promoció turística
 4,4,0,0,Administració general del transport
@@ -105,6 +107,7 @@
 9,2,0,4,Parc mòbil
 9,2,0,5,Informàtica
 9,2,0,6,Recursos Humans
+9,2,0,8,Govern Obert
 9,2,2,0,Coordinació i organització institucional de les entitats locals
 9,2,3,0,Informació bàsica i estadística
 9,2,4,0,Participació ciutadana

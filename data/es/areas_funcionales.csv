@@ -78,6 +78,7 @@
 3,2,1,0,Mantenimiento de instalaciones educativas
 3,2,3,0,Centros docentes de enseñanza preescolar y primaria y educación especial
 3,2,6,0,Servicios complementarios de educación: Plan "Xarxallibres"
+3,3,0,0,"Juventud, Cultura e Igualdad"
 3,3,2,0,Bibliotecas y Archivos
 3,3,3,0,Equipamientos culturales y museos: Planetario
 3,3,4,0,Cultura
@@ -89,6 +90,7 @@
 3,3,8,0,Fiestas populares y festejos
 3,4,1,0,Promoción y fomento del deporte
 3,4,2,0,Instalaciones deportivas
+4,3,0,0,Actividad económica y empleo
 4,3,1,0,Comercio
 4,3,2,0,Información y promoción turística
 4,5,2,0,Recursos hidráulicos
@@ -105,6 +107,7 @@
 9,2,0,4,Parque móvil
 9,2,0,5,Informática
 9,2,0,6,Recursos Humanos
+9,2,0,8,Gobierno Abierto
 9,2,2,0,Coordinación y organización institucional de las entidades locales
 9,2,3,0,Información básica y estadística
 9,2,4,0,Participación ciudadana
