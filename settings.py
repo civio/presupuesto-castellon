@@ -89,7 +89,7 @@ FACEBOOK_ID = '297629970407368'
 
 # Google Analytics ID. Default: ''
 # In order to get the ID create a Google Analytics Acount in https://analytics.google.com/analytics/web/
-ANALYTICS_ID = 'UA-73230322-1'
+ANALYTICS_ID = 'UA-28946840-13'
 
 # Setup Data Source Budget link
 DATA_SOURCE_BUDGET = 'http://castello.es/web30/pages/seccion_web10.php?cod1=8'
