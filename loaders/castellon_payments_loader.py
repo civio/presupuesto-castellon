@@ -14,7 +14,7 @@ class CastellonPaymentsLoader(PaymentsLoader):
         fc_code = line[6].zfill(5)
 
         # But we got some lines with wrong classification data
-        if not re.search(r'^\d{5}$', fc_code):
+        if fc_code == '00000' or not re.search(r'^\d{5}$', fc_code):
             return None
 
         # First two digits of the programme make the policy id
