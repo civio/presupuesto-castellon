@@ -60,11 +60,13 @@ class CastellonBudgetLoader(SimpleBudgetLoader):
             # We're sticking with the first three digits, i.e. groups of programmes,
             # because we don't have a proper list of programmes, the data is noisy.
             # Except in the case of policies 24 (Employment), 34 (Culture) and 92 (General
-            # Services), where the client asked for more detail.
+            # Services) and 23115 (COVID-19), where the client asked for more detail.
             # (We could do this just through the programme mapping, but since we started
             # like this...)
             if fc_code[:2] in ['24', '33', '92']:
                 fc_code = fc_code[:4]
+            elif fc_code == '23115':
+                fc_code = '231A'
             else:
                 fc_code = fc_code[:3]+'0'
 
